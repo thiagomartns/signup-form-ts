@@ -3,6 +3,10 @@ import './App.scss';
 
 function App() {
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+  }
+
   return (
     <>
       <div className='App'>
@@ -15,7 +19,7 @@ function App() {
             <div className="trial-button">
               <button className="purple-btn btn"><span>Try it free 7 days</span> then $20/mo. thereafter</button>
             </div>
-            <form form-container--form>
+            <form className='form-container--form' onSubmit={handleSubmit}>
               <div className="form-container">
                 <div className="input-container">
                   <input className='input-name input' placeholder='Name' required type="text" />
