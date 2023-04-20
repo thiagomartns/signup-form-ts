@@ -29,3 +29,32 @@ $grayish-blue: #BAB7D4;
   border: none;
   color: white;
 }
+
+// input
+input {
+  height: 56px;
+  background: #FFFFFF;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  font: $poppins-sb-1;
+  padding-left: 1rem;
+  color: $dark-blue;
+
+  &::placeholder {
+    font: $poppins-sb-1;
+    color: $dark-blue;
+  }
+
+  &:focus {
+    outline: none;
+    border: 1px solid $blue;
+    font: $poppins-sb-1;
+
+    &:focus::placeholder {
+      color: white;
+    }
+    &:invalid {
+      border-color: $red;
+    }
+  }
+}
