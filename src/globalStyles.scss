@@ -8,7 +8,7 @@ $poppins-r-3: 500 1rem/26px 'Poppins', sans-serif;
 $poppins-sb-1: 600 .875rem/26px 'Poppins', sans-serif;
 $poppins-sb-2: 600 .9375rem/26px 'Poppins', sans-serif;
 $poppins-b-1: 700 .6875rem/26px 'Poppins', sans-serif;
-$poppins-b-2: 700 3.25rem/26px 'Poppins', sans-serif;
+$poppins-b-2: 700 3.25rem/55px 'Poppins', sans-serif;
 
 // colors
 // 1. Primary
@@ -21,3 +21,11 @@ $blue: #5E54A4;
 // 3.Neutral
 $dark-blue: #3D3B48;
 $grayish-blue: #BAB7D4;
+
+// button
+.btn {
+  height: 3rem;
+  width: 100%;
+  border: none;
+  color: white;
+}
