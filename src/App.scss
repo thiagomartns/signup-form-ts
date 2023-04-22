@@ -24,23 +24,6 @@
     max-width: 1100px;
     grid-gap: 2.75rem;
 
-    .app-content--text {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      width: 100%;
-
-      .text-h1 {
-        font: $poppins-b-2;
-        color: white;
-      }
-
-      .text-p {
-        font: $poppins-r-3;
-        color: white;
-      }
-    }
-
     .app-content--form {
       display: flex;
       flex-direction: column;
@@ -57,6 +40,10 @@
           padding: 0 2rem;
           font: $poppins-r-2;
           font-weight: 400;
+
+          &:hover {
+            cursor: pointer;
+          }
 
           span {
             font-weight: 500;
@@ -129,6 +116,10 @@
             span {
               font: $poppins-b-1;
               color: $red;
+
+              &:hover {
+                cursor: pointer;
+              }
             }
           }
         }

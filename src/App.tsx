@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.scss';
 import AlertIcon from './assets/images/icon-error.svg'
+import LeftContent from './components/leftContent/LeftContent';
 
 function App() {
 
@@ -27,10 +28,7 @@ function App() {
     <>
       <div className='App'>
         <div className="app-content">
-          <div className="app-content--text">
-            <h1 className="text-h1">Learn to code by watching others</h1>
-            <p className="text-p">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
-          </div>
+          <LeftContent />
           <div className="app-content--form">
             <div className="trial-button">
               <button className="purple-btn btn"><span>Try it free 7 days</span> then $20/mo. thereafter</button>
