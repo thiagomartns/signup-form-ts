@@ -1,0 +1,20 @@
+@import '../../globalStyles.scss';
+
+.trial-button {
+  .purple-btn {
+    background-color: $blue;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    border-radius: 10px;
+    padding: 0 2rem;
+    font: $poppins-r-2;
+    font-weight: 400;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    span {
+      font-weight: 500;
+    }
+  }
+}

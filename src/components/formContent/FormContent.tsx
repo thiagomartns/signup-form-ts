@@ -1,6 +1,7 @@
 import './formContent.scss';
 import { useState } from 'react';
 import AlertIcon from '../../assets/images/icon-error.svg';
+import TrialButton from '../trialButton/TrialButton';
 
 const FormContent = () => {
 
@@ -59,9 +60,7 @@ const FormContent = () => {
 
   return (
     <div className="app-content--form">
-      <div className="trial-button">
-        <button className="purple-btn btn"><span>Try it free 7 days</span> then $20/mo. thereafter</button>
-      </div>
+      <TrialButton />
       <form className='form-container--form' onSubmit={handleSubmit}>
         <div className="input-container">
           <input 
