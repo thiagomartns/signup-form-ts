@@ -7,6 +7,10 @@
   align-items: center;
   gap: 0.25rem;
 
+  @include mobile {
+    width: 100%;
+  }
+
   .submit-btn {
     background: $green;
     box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
@@ -22,6 +26,11 @@
   .terms {
     font: $poppins-r-1;
     color: $grayish-blue;
+
+    @include mobile {
+      text-align: center;
+      margin-top: .5rem;
+    }
 
     span {
       font: $poppins-b-1;

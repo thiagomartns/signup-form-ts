@@ -9,6 +9,12 @@
     font: $poppins-r-2;
     font-weight: 400;
 
+    @include mobile {
+      width: 350px;
+      padding: 1rem 1.5rem;
+      height: 100%;
+    }
+
     &:hover {
       cursor: pointer;
     }

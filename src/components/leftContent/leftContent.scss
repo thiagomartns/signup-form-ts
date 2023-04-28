@@ -6,13 +6,30 @@
   gap: 2rem;
   width: 100%;
 
+  @include mobile {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
   .text-h1 {
     font: $poppins-b-2;
     color: white;
+
+    @include mobile {
+      font-size: 1.75rem;
+      line-height: 36px;
+      width: 75%;
+    }
   }
 
   .text-p {
     font: $poppins-r-3;
     color: white;
+
+    @include mobile {
+      font: $poppins-r-2;
+      width: 80%;
+    }
   }
 }
