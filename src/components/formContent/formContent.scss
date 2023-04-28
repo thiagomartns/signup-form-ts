@@ -46,39 +46,5 @@
         font-style: italic;
       }
     }
-
-    .submit {
-      width: 460px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.25rem;
-
-      .submit-btn {
-        background: $green;
-        box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
-        border-radius: 5px;
-        font: $poppins-sb-2;
-        text-transform: uppercase;
-
-        &:hover {
-          background-color: #77E2B3;
-          cursor: pointer;
-        }
-      }
-      .terms {
-        font: $poppins-r-1;
-        color: $grayish-blue;
-
-        span {
-          font: $poppins-b-1;
-          color: $red;
-
-          &:hover {
-            cursor: pointer;
-          }
-        }
-      }
-    }
   }
 }

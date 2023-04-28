@@ -2,6 +2,7 @@ import './formContent.scss';
 import { useState } from 'react';
 import AlertIcon from '../../assets/images/icon-error.svg';
 import TrialButton from '../trialButton/TrialButton';
+import SubmitContainer from '../submitForm/Submit';
 
 const FormContent = () => {
 
@@ -122,14 +123,7 @@ const FormContent = () => {
             </>
           }
         </div>
-        <div className="submit">
-          <button 
-            className="submit-btn btn"
-          >
-            claim your free trial
-          </button>
-          <p className="terms">By clicking the button, you are agreeing to our <span>Terms and Services.</span></p>
-        </div>
+        <SubmitContainer />
       </form>
     </div>
   )
